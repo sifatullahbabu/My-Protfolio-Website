@@ -166,30 +166,45 @@
 
 
 @media screen and (max-width: 700px) {
- 
+ p{
+  font-size:15px;
+ }
 .skills{
   display: flex;
   flex-direction: column;
   font-size: medium;
+  justify-content: center;
+  align-items: center;
   height: auto;
+  
 }
 #logo1{
-background-size: cover;
-}
-#logo2{
-  background-size: cover;
-}
-#logo3{
-  background-size: cover;
-}
-#logo4{
-  background-size: cover;
-}
-#logo5{
-  background-size: cover;
-}
-#logo6{
-  background-size: cover;
+background-size:contain;
 
 }
+#logo2{
+  background-size:contain;
+}
+#logo3{
+  background-size: contain;
+}
+#logo4{
+  background-size: contain;
+}
+#logo5{
+  background-size: contain;
+}
+#logo6{
+  background-size:contain;
+
+}
+}
+footer{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: rgb(177, 181, 184);
+  border-top: 2px solid ;
+  width: 100vw;
+  padding: 10px 30px 5px 0px;
 }
