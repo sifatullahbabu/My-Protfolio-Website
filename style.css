@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.links{
+  margin: 20px 0px;
+}
+.logoimage{
+  width: 150px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.nav-link:hover{
+  color: green;
+  
+
+}
+.nav-item a{
+  color: white;
+  font-size: larger;
+}
+.nav-item a:hover{
+  color:rgb(94, 243, 101);
+}
+
+
+body{
+  background: color #ffffff;
+}
+
+
+.container1st{
+  
+  background-repeat:no-repeat;
+  background-size:cover;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container1st p{
+  color: rgb(251, 254, 255);
+  font-size: larger;
+
+}
+b{
+  font-size: xx-large;
+  color: red;
+}
+.my_image img{
+  margin: 90px 100px 100px 0px;
+  width:30em;
+  height: 30em;
+  
+}
+
+.hi{
+  color: rgb(37, 92, 51);
+  font-size:90px;
+  font-weight: bolder;
+}
+.name{
+  font-size: 60px;
+}
+h2{
+  font-size: 45px;
+}
+.Resume_button{
+  display: flex;
+  color:rgb(32, 85, 48);
+  margin: 50px 0px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: large;
+  border: 2px solid rgb(41, 75, 65);
+  border-radius: 10px;
+  font-weight: 700;
+}
+.Resume_button:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(35, 63, 47);
+}
+.heading1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.heading1 h2{
+  width: 400px;
+  height: 100px;
+  background-color: rgb(225, 228, 233);
+  margin: 50px;
+  color:rgb(39, 36, 36);
+  border-radius: 20px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  border: 4px solid rgb(197, 191, 191);
+  box-shadow: 3px 3px 3px 3px;
+}
+
+
+@media screen and (max-width: 700px) {
+ 
+  main{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .container1st{
+    display: flex;
+    flex-direction: column;
+  }
+  .my_image img{
+    width: 25em;
+    height: 25em;
+    margin: 50px;
+  }
+}

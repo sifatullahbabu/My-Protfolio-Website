@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.links{
+  margin: 20px 0px;
+}
+.logoimage{
+  width: 150px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.nav-link:hover{
+  color: green;
+  
+
+}
+.nav-item a{
+  color: white;
+  font-size: larger;
+}
+.nav-item a:hover{
+  color:rgb(231, 36, 94);
+}
+
+  
+.container{
+    height: auto;
+}
+main{
+  background-color: white;
+}

@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.links{
+  margin: 20px 0px;
+}
+.logoimage{
+  width: 150px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.nav-link:hover{
+  color: green;
+  
+
+}
+.nav-item a{
+  color: white;
+  font-size: larger;
+}
+.nav-item a:hover{
+  color:rgb(231, 36, 94);
+}
+
+
+ main{
+  background-color: #ffffff;
+  padding: 50px;
+ }
+.box1{
+    height: auto;
+    width: auto;
+    background-color: rgb(25, 118, 146)
+}
+.heading{
+     display: flex;
+     justify-content: center;
+    height: auto;
+    width: 100%;
+}
+.heading h1{
+    height: 90%;
+    width: 30%;
+    background-color: rgb(193, 201, 182);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 40px;
+    color: rgb(19, 16, 18);
+    box-shadow:2px 2px 2px 2px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.edurbap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ margin: 20px;
+}
+.edu{
+    text-align: center;
+    height:auto;
+    width: 600px;
+    background-color: rgb(26, 77, 26);
+    font-size: larger;
+    border-radius: 20px;
+    box-shadow: 5px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    gap: 10px;
+    margin: 30px;
+    text-transform: capitalize;
+    color: white;
+}
+ .mainerbap{
+    display: flex;
+    justify-content: center;
+    padding: auto;
+ }
+.mainbox{
+    height: auto;
+    color: white;
+    width: auto;
+    background-color: rgb(26, 77, 26);
+    border-radius: 20px;
+    box-shadow: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr 2fr;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+#box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+#box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+.subbox{
+    text-align: center;
+}
+
+@media screen and (max-width: 700px)
+{
+    .heading h1{
+        width: auto;
+        padding: 20px;
+        margin-top: 50px;
+    }
+    .mainbox{
+      border-radius: 20px 20px 0px 0px;
+    }
+}

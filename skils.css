@@ -1,0 +1,195 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.links{
+  margin: 20px 0px;
+}
+.logoimage{
+  width: 150px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.nav-link:hover{
+  color: green;
+  
+
+}
+.nav-item a{
+  color: white;
+  font-size: larger;
+}
+.nav-item a:hover{
+  color:rgb(231, 36, 94);
+}
+
+  
+.heading1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heading1 h2{
+    width: 400px;
+    height: 100px;
+    font-size:50px;
+    background-color: rgb(255, 255, 255);
+    margin-top:50px;
+    color:rgb(0, 0, 0);
+    border-radius: 20px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px;
+}
+#skill{
+    background-color: #ffffff;
+}
+.skills{
+    margin: 0px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap:30px;
+    margin-top: 30px;
+   
+    
+}
+.gridboxs{
+    width: auto;
+    height: auto;
+    background-color:rgb(20, 99, 53);
+    border: 0px solid rgb(31, 99, 37);
+    border-radius: 20px;
+    box-shadow: 2px rgb(94, 91, 91);
+    margin: 20px 0px;
+    color: rgb(253, 253, 253);
+    font-size: x-large;
+}
+#html_part{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;  
+}
+
+#logo1{
+    background-image: url(html_logo.jpg);
+    background-size:contain;
+    object-fit: contain;
+    border-radius: 20px 0px 0px 20px;
+    background-repeat: no-repeat;
+}
+#pera1{
+    padding: 10px;
+    
+}
+#css_part{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;  
+  }
+
+#logo2{
+    background-image: url(css_logo.png);
+    background-size:contain;
+    
+    border-radius: 20px 0px 0px 20px;
+    background-repeat: no-repeat;
+}
+#pera2{
+    padding: 9px; 
+}
+#javascript_part{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;  
+  }
+
+#logo3{
+    background-image: url(JavaScript-logo3.png);
+    background-size:contain;
+    border-radius: 20px 0px 0px 20px;
+    background-repeat: no-repeat;
+    
+}
+#pera3{
+    padding: 10px; 
+}
+#reactjs_part{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;  
+  }
+
+#logo4{
+    background-image: url(react.jpg);
+    background-size:contain;
+    border-radius: 20px 0px 0px 20px;
+    background-repeat: no-repeat;
+}
+#pera4{
+    padding: 10px; 
+}
+#notejs_part{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;  
+  }
+
+#logo5{
+    background-image: url(notejslogo.jpg);
+    background-size:contain;
+    border-radius: 20px 0px 0px 20px;
+    background-repeat: no-repeat;
+}
+#pera5{
+    padding: 10px; 
+}
+#MongoDB_part{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;  
+    
+  }
+
+#logo6{
+    background-image: url(mongobd.jpg);
+    background-size:contain;
+    border-radius: 20px 0px 0px 20px;
+    background-repeat: no-repeat;
+}
+#pera6{
+    padding: 10px; 
+}
+
+
+@media screen and (max-width: 700px) {
+ 
+.skills{
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  height: auto;
+}
+#logo1{
+background-size: cover;
+}
+#logo2{
+  background-size: cover;
+}
+#logo3{
+  background-size: cover;
+}
+#logo4{
+  background-size: cover;
+}
+#logo5{
+  background-size: cover;
+}
+#logo6{
+  background-size: cover;
+
+}
+}
