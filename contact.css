@@ -7,7 +7,7 @@
   margin: 20px 0px;
 }
 .logoimage{
-  width: 150px;
+  width: 100px;
   height: auto;
   border-radius: 30px;
 }
@@ -30,7 +30,7 @@
     height: auto;
 }
 main{
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 footer{
   display: flex;
@@ -39,5 +39,17 @@ footer{
   color: rgb(177, 181, 184);
   border-top: 2px solid ;
   width: 100vw;
-  padding: 10px 30px 5px 0px;
+  padding: 10px 15px 5px 0px;
+}
+@media screen and (max-width: 700px) {
+.container{
+  width: 80%;
+}
+body{
+  background-color: white;
+}
+footer{
+  font-size: xx-small;
+}
+
 }

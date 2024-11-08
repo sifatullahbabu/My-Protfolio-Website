@@ -7,7 +7,7 @@
   margin: 20px 0px;
 }
 .logoimage{
-  width: 150px;
+  width: 100px;
   height: auto;
   border-radius: 30px;
 }
@@ -30,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 30px;
     
 }
 .heading1 h2{
@@ -47,6 +48,7 @@
 }
 #skill{
     background-color: #ffffff;
+    margin: 
 }
 .skills{
     margin: 0px 30px;
@@ -164,10 +166,18 @@
     padding: 10px; 
 }
 
-
+footer{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: rgb(177, 181, 184);
+  border-top: 2px solid ;
+  width: 100vw;
+  padding: 10px 20px 5px 0px;
+}
 @media screen and (max-width: 700px) {
  p{
-  font-size:15px;
+  font-size:12px;
  }
 .skills{
   display: flex;
@@ -177,34 +187,28 @@
   align-items: center;
   height: auto;
   
+  
 }
 #logo1{
-background-size:contain;
+background-size:cover;
 
 }
 #logo2{
-  background-size:contain;
+  background-size:cover;
 }
 #logo3{
-  background-size: contain;
+  background-size: cover;
+  width: 110%;
 }
 #logo4{
-  background-size: contain;
+  background-size: cover;
 }
 #logo5{
-  background-size: contain;
+  background-size: cover;
+  width: 110%;
 }
 #logo6{
   background-size:contain;
 
 }
-}
-footer{
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  color: rgb(177, 181, 184);
-  border-top: 2px solid ;
-  width: 100vw;
-  padding: 10px 30px 5px 0px;
 }

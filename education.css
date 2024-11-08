@@ -7,7 +7,7 @@
   margin: 20px 0px;
 }
 .logoimage{
-  width: 150px;
+  width: 100px;
   height: auto;
   border-radius: 30px;
 }
@@ -60,12 +60,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
- margin: 20px;
+   
 }
 .edu{
     text-align: center;
     height:auto;
-    width: 600px;
+    padding: 5px 10px;
     background-color: rgb(26, 77, 26);
     font-size: larger;
     border-radius: 20px;
@@ -75,7 +75,7 @@
     align-items: center;   
     justify-content: center;
     gap: 10px;
-    margin: 30px;
+    margin:20px 0px 20px 0px;
     text-transform: capitalize;
     color: white;
 }
@@ -83,6 +83,7 @@
     display: flex;
     justify-content: center;
     padding: auto;
+    width: 100%;
  }
 .mainbox{
     height: auto;
@@ -132,5 +133,15 @@ footer{
     }
     .mainbox{
       border-radius: 20px 20px 0px 0px;
+      
+    }
+    .mainerbap{
+   margin: 0px;
+   text-align: center;
+    }
+    #box2{
+      display: flex;
+      flex-direction: column;
+
     }
 }
