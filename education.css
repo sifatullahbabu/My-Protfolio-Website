@@ -144,4 +144,7 @@ footer{
       flex-direction: column;
 
     }
+    footer{
+      font-size:xx-small;
+    }
 }
